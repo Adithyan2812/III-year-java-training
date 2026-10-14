@@ -1,4 +1,4 @@
-DRIVING LICENCE ELIGIBILITY
+1.DRIVING LICENCE ELIGIBILITY
 
 
 import java.util.Scanner;
@@ -27,7 +27,7 @@ Eligible
 
 
 
-EVEN NUMBER AND RANGE CHECKING
+2.EVEN NUMBER AND RANGE CHECKING
 
 import java.util.Scanner;
 
@@ -57,7 +57,7 @@ The number is even and greater than 10.
 
 
 
-STUDENT PASS CHECKER
+3.STUDENT PASS CHECKER
 
 import java.util.Scanner;
 
@@ -88,7 +88,7 @@ Pass
 
 
 
-SHOPPING DISCOUNT ELIGIBILITY
+4.SHOPPING DISCOUNT ELIGIBILITY
 
 
 import java.util.Scanner;
@@ -124,7 +124,7 @@ Discount Available
 
 
 
-PASSWORD LENGTH VALIDATER
+5.PASSWORD LENGTH VALIDATER
 
 
 import java.util.Scanner;
@@ -156,7 +156,7 @@ Valid
 
 
 
-ATM Withdrawal Validation
+6.ATM Withdrawal Validation
 
 import java.util.Scanner;
 
@@ -190,7 +190,7 @@ Enter withdrawal amount: 4566
 Transaction declined.
 
 
-LOGIN ACCOUNT CONTROLLER
+7.LOGIN ACCOUNT CONTROLLER
 
 import java.util.Scanner;
 
@@ -240,7 +240,7 @@ Next login attempt is allowed.
 
 
 
-Smart Battery Charging
+8.Smart Battery Charging
 
 
 import java.util.Scanner;
@@ -280,7 +280,7 @@ Charging allowed. Battery level is now 80%.
 
 
 
-ONLINE ORDER FREE DELIVERY
+9.ONLINE ORDER FREE DELIVERY
 
 import java.util.Scanner;
 
@@ -313,7 +313,7 @@ Is the customer a premium member? (yes/no): NO
 Final amount: ?617.00
 
 
-Inventory Reorder Checker
+10.Inventory Reorder Checker
 
 import java.util.Scanner;
 
@@ -349,7 +349,7 @@ Enter incoming stock: 453
 Stock Sufficient
 
 
-Scholarship Eligibility
+11.Scholarship Eligibility
 
 import java.util.Scanner;
 
@@ -389,7 +389,7 @@ Scholarship awarded: 0%
 
 
 
-Ride Fare Calculator
+12.Ride Fare Calculator
 
 import java.util.Scanner;
 
@@ -432,46 +432,10 @@ Final ride fare: ?1042.00
 
 
 
-Employee Bonus Calculator
-
-
-import java.util.Scanner;
-
-public class EmployeeBonusCalculator {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter employee salary (₹): ");
-        double salary = scanner.nextDouble();
-
-        System.out.print("Enter performance score: ");
-        int score = scanner.nextInt();
-
-        System.out.print("Enter completed projects: ");
-        int projects = scanner.nextInt();
-
-        int bonusPercentage = (score >= 90 && projects >= 3)
-                ? 15
-                : (score >= 75 || projects >= 5)
-                    ? 10
-                    : (score >= 60)
-                        ? 3
-                        : 0;
-
-        double finalSalary = salary + salary * bonusPercentage / 100.0;
-
-        System.out.println("Bonus percentage: " + bonusPercentage + "%");
-        System.out.printf("Final salary: ₹%.2f%n", finalSalary);
-
-        scanner.close();
-    }
-}
 
 
 
-
-
-Employee Bonus Calculator
+13.Employee Bonus Calculator
 
 
 
@@ -521,7 +485,7 @@ Final salary: ?862500.00
 
 
 
-Secure Transaction Validator
+14.Secure Transaction Validator
 
 
 import java.util.Scanner;
@@ -568,7 +532,7 @@ Remaining balance: ?750000.00
 
 
 
-Smart Exam Registration System
+15.Smart Exam Registration System
 
 import java.util.Scanner;
 
